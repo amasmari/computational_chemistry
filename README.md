@@ -122,3 +122,7 @@ for readable Python code;
 initiate studies in this field; and
 **Dr. C. David Sherrill**, for providing an enormous number of opportunities
 to continue to learn and grow as a scientist and a person.
+
+<h2 id="Fork Contributions">ThisFork</h2>
+
+This fork is edited by Ali Alasmari
