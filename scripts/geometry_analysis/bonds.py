@@ -5,15 +5,21 @@ import sys, math
 # threshold beyond average of covalent radiii to determine bond cutoff
 bond_thresh = 1.2
 
+
 # covalent (or ionic) radii by atomic element (Angstroms) from
 # "Inorganic Chemistry" 3rd ed, Housecroft, Appendix 6, pgs 1013-1014
+# https://en.wikipedia.org/wiki/Atomic_radii_of_the_elements_(data_page)
 cov_rads = {  'H' : 0.37, 'C' : 0.77, 'O' : 0.73, 'N' : 0.75, 'F' : 0.71,
   'P' : 1.10, 'S' : 1.03, 'Cl': 0.99, 'Br': 1.14, 'I' : 1.33, 'He': 0.30,
   'Ne': 0.84, 'Ar': 1.00, 'Li': 1.02, 'Be': 0.27, 'B' : 0.88, 'Na': 1.02,
   'Mg': 0.72, 'Al': 1.30, 'Si': 1.18, 'K' : 1.38, 'Ca': 1.00, 'Sc': 0.75,
   'Ti': 0.86, 'V' : 0.79, 'Cr': 0.73, 'Mn': 0.67, 'Fe': 0.61, 'Co': 0.64,
   'Ni': 0.55, 'Cu': 0.46, 'Zn': 0.60, 'Ga': 1.22, 'Ge': 1.22, 'As': 1.22,
-  'Se': 1.17, 'Kr': 1.03, 'X' : 0.00}
+  'Se': 1.17, 'Kr': 1.03, 'X' : 0.00, 'Mo': 1.45, 'Ru' : 1.26, 'Rh' : 1.34,
+  'Pd': 1.31, 'Ag' : 1.53, 'Sn' : 1.41, 'Pt':1.28}
+
+
+#covalent (or ionic) radii by atomic element (Angstroms) from
 
 ## IO FUNCTIONS ##
 
